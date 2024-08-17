@@ -1,0 +1,122 @@
+.bg-light {
+  background-color: #7a4fac !important;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.navbar {
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-brand .navbar-toggler {
+  color: #b8b6d1;
+  background-color: #63309910;
+}
+.navbar-nav {
+  padding-left: 40%;
+}
+
+body {
+  background: linear-gradient(to bottom, #a1b3ce, #e089dd, #8867d6);
+}
+
+body #titulo,
+#subtitulo {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.table-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.description-txt {
+  position: fixed;
+  display: block flex;
+  text-align: center;
+}
+.card {
+  background-color: #9390b9b2;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
+.d-block {
+  width: 500px;
+  height: 500px;
+}
+.carousel-inner {
+  display: flex;
+}
+.carousel-caption h5 {
+  font-size: xx-large;
+  color: rgb(255, 246, 246);
+  background-color: #672baaab;
+}
+.carousel-caption p {
+  font-size: x-large;
+  color: rgb(255, 246, 246);
+  background-color: #672baaab;
+}
+.formulario-1 {
+  margin: auto;
+  background-color: #b8b6d1d7;
+  width: 90%;
+  height: 50%;
+}
+#contactform {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10 px rgba (0, 0, 0, 0.1);
+}
+#contact-form label {
+  display: flex;
+}
+form {
+  margin: 0;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 1px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="telefono"],
+input[type="email"],
+input[type="comentario"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.btn {
+  background-color: #480658;
+  margin-top: 20px;
+  color: white;
+  padding: 12px 20px;
+  border: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+  display: flex;
+  justify-content: center;
+}
+.btn:hover {
+  background-color: #bb0ca4;
+  color: white;
+}
+footer {
+  background-color: #8867d6;
+  border: 1px solid #d8aee2;
+  box-shadow: 0 0 10 px rgba (0, 0, 0, 0.1);
+  margin: auto;
+  width: 90%;
+  height: 20%;
+}
